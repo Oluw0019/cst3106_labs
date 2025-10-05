@@ -1,0 +1,44 @@
+/* style.css */
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  margin: 0;
+}
+
+header {
+  background-color: #00948d;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+nav {
+  background-color: #727272;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  font-weight: bold;
+}
+  
+main {
+  padding: 10px;
+}
+
+section {
+  border: 3px solid #000000;
+  padding: 15px;
+  margin-bottom: 20px;  
+}
+
+footer {
+  text-align: center;
+  background-color: #00948d;
+  color: white;
+  padding: 20px 0;
+}
