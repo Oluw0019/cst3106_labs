@@ -2,7 +2,7 @@
 # **Daniel Ayomide Oluwatuyi's Portfolio Design System Documentation**
 This is the markdown file for my portfolio
 
-## *1. Color Palette*
+# **1. Color Palette**
 The colors used for each section is listed below
 
 - Text Color: `#000000`
@@ -13,10 +13,10 @@ The colors used for each section is listed below
 - Nav Background Color: `#727272`
 
 
-## **2. Typography**
+# **2. Typography**
 - Body Text: `"Times New Roman", Times, serif`
 
-# ***3. Components and Layout**
+# **3. Components and Layout**
 ## Header
 - **Design:** Centered text with a dark grey=enish-blue background and white colored text.
 - **Mock-up Screenshot:**
