@@ -1,0 +1,81 @@
+
+body {
+    background :#b87bb1;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 420px;
+    height: auto;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    padding: 32px 24px 24px 24px;
+}
+
+h1 {
+    text-align: center;
+    color: #2d3a4b;
+    margin-bottom: 18px;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+/* controls */
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 22px;
+    flex-wrap:wrap;
+}
+
+button {
+    background: #cd0000;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 18px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.08s;
+    font-weight: 500;
+}
+
+
+button:disabled {
+    background: #b0c4de;
+    cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+    background: #b87bb1;
+}
+
+/* scorecard kept mostly same but add sections & highlights */
+.scorecard {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.dice-board {
+    display: flex;
+    justify-content: center;  
+    gap: 1rem;                /* spacing between dice */
+    flex-wrap: nowrap;        /* keep them in a single row */
+    margin-bottom: 2rem;
+    width: auto;              /* size of each die */
+    display: flex;
+    font-size: 50px;
+    cursor: pointer;
+    color: #cd0000;
+}
+
+.die:hover {
+    transform: translateY(-5px);  /* subtle lift on hover */
+}

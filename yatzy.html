@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Single-Player Yatzy Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="yatzy.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Yatzy Game</h1>
+        <div class="message" id="message"></div>
+        <div class="dice-board" id="dice-board">
+                <div class="dice">⚀</div>
+                <div class="dice">⚁</div>
+                <div class="dice">⚂</div>
+                <div class="dice">⚃</div>
+                <div class="dice">⚄</div>
+                <div class="dice">⚅</div>
+        </div>
+        <div class="controls">
+            <button id="roll-btn">Roll Dice</button>
+            <button id="end-turn-btn" disabled>End Turn</button>
+            <button id="end-game-btn">End Game</button>
+        </div>
+        <table class="scorecard" id="scorecard"> <!-- scorecard(i'll add more later) -->
+            <thead>
+                <tr>
+                    <th>Combination</th>
+                    <th>Score</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <!-- <script src="yatzy.js"></script> -->>
+</body>
+</html>
