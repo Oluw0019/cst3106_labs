@@ -20,3 +20,6 @@ The game utilizes a cool, muted palette to ensure readability and a professional
 I used the Segoe Ui Font
 
 **Reason why?:** The font is firm, consistent, and easy to read, i''d have loved to use times new roman but i'd rather not. 
+
+### This is a screenshot of my mockup game
+![Overall](1.png)
