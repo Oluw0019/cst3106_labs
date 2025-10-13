@@ -21,5 +21,7 @@ I used the Segoe Ui Font
 
 **Reason why?:** The font is firm, consistent, and easy to read, i''d have loved to use times new roman but i'd rather not. 
 
+!!! I have yet to create a detailed score and combinations, but i have created their classes and filled them with titles !!!
+
 ### This is a screenshot of my mockup game
 ![Overall](1.png)
