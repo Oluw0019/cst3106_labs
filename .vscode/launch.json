@@ -1,0 +1,14 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open yatzy.html",
+            "file": "c:\\Users\\danny\\OneDrive - Algonquin College\\Desktop\\Algonquin School Documents [041177666]\\Fall 2025\\CST 3106 Internet Architecture and Web Development\\Repositories\\cst3106_labs\\yatzy.html"
+        }
+    ]
+}

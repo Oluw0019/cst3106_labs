@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Single-Player Yatzy Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="yatzy.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Yatzy Game</h1>
+        <div class="message" id="message">Welcome to Yatzy! Click Roll Dice to start.</div>
+        
+        <div class="dice-board" id="dice-board">
+            <!-- Dice will be generated here by JavaScript -->
+        </div>
+        
+        <div class="controls">
+            <button id="roll-btn">Roll Dice</button>
+            <button id="end-turn-btn" disabled>End Turn</button>
+            <button id="end-game-btn">End Game</button>
+        </div>
+        
+        <table class="scorecard" id="scorecard">
+            <thead>
+                <tr>
+                    <th>Combination</th>
+                    <th>Score</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Score rows will be generated here by JavaScript -->
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Load the modular JavaScript files -->
+    <script src="dice.js"></script>
+    <script src="yatzyEngine.js"></script>
+    <script src="yatzyGame.js"></script>
+</body>
+</html>
