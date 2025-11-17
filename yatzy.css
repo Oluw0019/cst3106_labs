@@ -210,3 +210,17 @@ button:disabled {
         font-size: 0.9rem;
     }
 }
+
+/* Dot-based dice representation */
+.die .dot {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #111;
+}
+
+/* Slightly larger dots for small screens */
+@media (max-width: 480px) {
+    .die .dot { width: 7px; height: 7px; }
+}
